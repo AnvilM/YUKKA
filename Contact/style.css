@@ -1,0 +1,207 @@
+html
+{
+    font-family: 'Roboto', sans-serif;
+    
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 3px;
+    background-color: #303030;
+}
+
+body
+{
+    background-color: #191919;
+}
+
+.home svg
+{
+    height: 40px;
+    width: 40px;
+    fill: white;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.home svg:hover
+  {
+      fill:#02b15b;
+  }
+
+a
+{
+    text-decoration: none;
+    color: #027cff;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.wrapper
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Standart */
+.wrapper .main
+{
+    padding-bottom: 100px;
+    margin-top: 300px;
+    width: 1000px;
+    background-color: #303030;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 5px black;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    color: white;
+}
+
+.wrapper .main .theme
+{
+    height: 40px;
+    width: 40px;
+    fill: white;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+.wrapper .main .info
+{
+    margin-top: 100px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .main .info .box
+{
+   text-align: center;
+}
+
+.wrapper .main .info .box .vk button
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: #02b15b;
+    border-radius: 8px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    border-width: 0px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.wrapper .main .info .box .vk button:hover
+{
+    background-color: #02b15ccc;
+}
+.wrapper .main .info .box .or
+{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;margin-bottom: 20px;
+}
+
+
+
+
+.wrapper .main .info .box .email 
+{
+    color: #02b15b;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.wrapper .main .info .box .but
+{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 300;
+}
+/* White */
+
+
+
+.wrapper .white
+{
+    background-color: white;
+    color: black;
+}
+
+
+.wrapper .white .theme
+{
+    fill: #303030;
+}
+
+.wrapper .white .info .box .vk button
+{
+    background-color: #2288f5;
+
+}
+.wrapper .white .info .box .vk button:hover
+{
+    background-color: #027cff;
+}
+
+.wrapper .white .info .box .email 
+{
+    color: #2288f5;
+
+}
+
+
+
+
+@media(max-width:860px)
+{
+    .wrapper .main
+    {
+        margin-top: 200px;
+    }
+}
+
+
+@media(max-width:680px)
+{
+    .wrapper .main .h1
+{
+    margin-top: 60px;
+}
+}
+
+@media(max-width:380px)
+{
+    .wrapper .main
+    {
+        margin-top: 100px;
+    }
+
+    html
+    {
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+}
+
+

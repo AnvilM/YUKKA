@@ -1,0 +1,224 @@
+
+
+html
+{
+    -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 3px;
+    background-color: #303030;
+}
+body
+{
+    background-color: #191919;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+#rech1
+{
+
+    margin-top: 40px;
+    text-align: center;
+    color:#02b15b;
+}
+
+.message
+{
+    position: absolute;
+    background-color: #222222;
+    border-radius: 8px;
+    left:50%;
+    transform:translate(-50%, -100px);
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    text-align: center;
+}
+.message.active
+{
+    transform:translate(-50%, -6px);
+}
+
+
+a
+{
+    text-decoration: none;
+    color: #2288f5;
+    font-weight: 600;
+    font-size: 17px;
+}
+p
+{
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.main .text
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.main .text h1
+{
+    font-size: 35px;
+    color: #02b15b;
+}
+
+.main .text p
+{
+    font-size: 20px;
+}
+
+.main .errMsg
+{
+    height: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ff6169;
+}
+
+
+
+.main .fb 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .fb .fields
+{
+    width: 300px;
+}
+
+
+
+.main .fb .fields form input
+{
+    background-color: rgba(0, 0, 0, 0%);
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 8px;
+    transition-timing-function: ease-out;
+    transition-duration: .1s;
+    outline-width: 0px;
+}
+.main .fb .fields form input:hover
+{
+    background-color: #ffffff0e;
+}
+
+.main .fb .fields form input:hover::placeholder
+{
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.main .fb .fields form button
+{
+    margin-top: 30px;
+    background-color: #02b15b;
+    height: 34px;
+    width: 306px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: .2s;
+    animation-timing-function: ease-out;
+}
+
+.main .fb .fields form button:hover
+{
+    background-color: rgb(32, 32, 32);
+    
+}
+
+
+
+
+footer
+{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.tip
+{
+    text-align: center;
+}
+.tip p
+{
+    color:#01d36d;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tip .message p
+{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+@media(max-width:670px)
+{
+    .message
+    {
+        transform:translate(-50%, -120px);
+    }
+}
+
+@media(max-width:390px)
+{
+    .message
+    {
+        transform:translate(-50%, -150px);
+    }
+}
+
+
+@media(max-width:310px)
+{
+    form {text-align:center;}
+    #code
+    {
+        width: 200px;
+    }
+    #button
+    {
+        width: 206px;
+    }
+
+}
+
+
+@media(max-width:290px)
+{
+    .message
+    {
+        transform:translate(-50%, -220px);
+    }
+}

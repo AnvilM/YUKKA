@@ -1,0 +1,56 @@
+html
+{
+    -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+body
+{
+    background-color: #191919;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.main .text
+{
+    margin-top: 20px;
+    text-align:  center;
+    line-height: 15px;
+}
+.main .text h1
+{
+    color:#02b15b;
+}
+
+.toMain
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.toMain a
+{
+    text-decoration: none;
+    color: #00b7fff6;
+}
+
+.mn
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mn .text
+{
+    margin-top: 20px;
+    text-align:  center;
+    line-height: 15px;
+}
+.mn .text h1
+{
+    color: #ff6169;
+}

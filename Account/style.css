@@ -1,0 +1,592 @@
+html
+{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 3px;
+    background-color: #303030;
+}
+body
+{
+    background: #191919;
+    margin: 0px;
+    color: white;
+}
+
+.home svg
+{
+    height: 40px;
+    width: 40px;
+    fill: white;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.home svg:hover
+  {
+      fill:#02b15b;
+  }
+  
+  .wrapper 
+  {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .wrapper .main
+{
+    margin-top: 300px;
+    width: 1000px;
+    padding-bottom: 200px;
+    background-color: #303030;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 5px black;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wrapper .main .theme
+{
+    height: 40px;
+    width: 40px;
+    fill: white;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.wrapper .main .user
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .main .user .skin
+{
+    width: 200px;
+}
+.wrapper .main .user .skin canvas
+{
+    padding: 40px;
+    background-color: #252525;
+    border-radius: 8px;
+    width: 120px;
+    height: 240px;
+    box-shadow: 0px 0px 35px 5px black;
+    image-rendering: pixelated;
+}
+.wrapper .main .user .skin .a
+{
+    background-color: rebeccapurple;
+    width: 50px;
+    height: 100px;
+}
+.wrapper .main .user .skin form .button
+{
+    margin-top: 10px;
+    background-color: #00914b;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .3s;
+    animation-timing-function: ease-out;
+    
+}
+
+.wrapper .main .user .skin form .button:hover, .wrapper .main .user .skin form .change .Change label:hover
+{
+    background-color: rgb(32, 32, 32);
+    
+}
+
+
+
+
+.wrapper .main .user .skin form .change .Change
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 15px;
+    padding:2px;
+    font-size: 18px;
+}
+.wrapper .main .user .skin form .change .Change label
+{
+    border-radius: 5px;
+    background-color: #2288f5;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition-duration: .3s;
+    animation-timing-function: ease-out;
+    text-align: center;
+}
+#first
+{
+    width: 70%;
+}
+#second
+{
+    width: auto;
+}
+
+.wrapper .main .user .box
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+}
+.wrapper .main .user .box .donate
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wrapper .main .user .box .donate .bx
+{
+    margin-top: 10px;
+    width: 30%;
+    height: 132px;
+    background-color: #252525;
+    border-radius: 10px;
+}
+
+.wrapper .main .user .box .donate .bx .money, .replenish, .store
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .2s;
+    transition-property: opacity;
+    transition-timing-function: ease-out;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-color: white;
+
+}
+
+.wrapper .main .user .box .donate .bx .replenish:hover, .store:hover
+{
+    opacity: 70%;
+}
+
+
+.wrapper .main .user .box .donate .bx .money img
+{
+    margin-left: 10px;
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+
+}
+
+.wrapper .main .user .box .donate .bx .money .balance-box, .replenish .replenish-box, .store .store-box
+{
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   margin-right: 10px;
+}
+
+
+.wrapper .main .user .box .donate .bx .money .balance-box .balance-value
+{
+    color: #22a1f5;
+    font-weight: 700;
+}
+
+.wrapper .main .user .box .donate .bx .money
+{
+    cursor:not-allowed;
+}
+
+
+
+
+
+
+.wrapper .main .user .box .donate .bx .replenish img
+{
+
+    margin-left: 10px;
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+
+}
+
+.wrapper .main .user .box .donate .bx .replenish .replenish-box
+{
+    font-weight: 700;
+    color: #22a1f5;
+}
+
+
+.wrapper .main .user .box .donate .bx .store
+{
+    justify-content: center;
+}
+
+
+.wrapper .main .user .box .donate .bx .store img
+{
+    width: 88px;
+    height: 36px;
+    image-rendering: pixelated;
+
+}
+
+
+
+
+.wrapper .main .user .box .donate .bx .store, .store .store-box
+{
+    font-weight: 700;
+    color: #22a1f5;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .main .user .info
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 17px;
+}
+
+.wrapper .main .user .info .first
+{
+    margin-top: -10px;
+    width: 70%;
+    font-weight:500;
+    font-size: 18px;
+}
+
+.wrapper .main .user .info .second
+{
+    margin-top: -10px;
+    width: 30%;
+    margin-left: 50px;
+}
+.wrapper .main .user .info .first table, .second table
+{
+    width: 100%;
+}
+.wrapper .main .user .info .first table tr, .second table tr
+{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.wrapper .main .user .info .second table .true
+{
+    color: #02b15b;
+    font-weight: bold;
+    font-size: 18px;
+}
+.wrapper .main .user .info .first table tr .sec
+{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.message
+{
+    padding: 0px 20px 0 20px;
+    color: #ff6169;
+    position: fixed;
+    background-color: #222222;
+    border-radius: 8px;
+    left:50%;
+    transform:translate(-50%, -80px);
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    text-align: center;
+}
+.message.active
+{
+    transform:translate(-50%, 50px);
+}
+
+
+
+ .replenishment
+{
+    width: 400px;
+    height: 100px;
+    background-color: #202020;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    margin-left: -200px;
+    margin-right: -200px;
+    top: 40%;
+    align-items: center;
+    transition-timing-function: ease-out;
+    transition-duration: .1s;
+    opacity: 0%;
+    z-index: 100;
+}
+.active
+{
+    display: flex;
+    opacity: 150%;
+}
+.replenishment input
+{
+    background-color: rgba(0, 0, 0, 0%);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
+    transition-timing-function: ease-out;
+    transition-duration: .1s;
+    outline-width: 20;
+}
+
+.replenishment button
+{
+    background-color: #02b15b;
+    height: 34px;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .3s;
+    animation-timing-function: ease-out;
+}
+
+.replenishment button:hover
+{
+    background-color: #303030;
+}
+.black
+{
+    transition-duration: .3s;
+    animation-timing-function: ease-out;
+    opacity: 0%;
+}
+.disabled
+{   
+    opacity: 70%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+
+/* whiteTheme */
+
+.wrapper .white .theme
+{
+
+    fill: #303030;
+}
+
+.wrapper .white
+{
+    background-color: white;
+}
+.wrapper .white .user .skin canvas
+{
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+
+.wrapper .white .user .box .donate .bx .money
+{
+    background-color: #252525;
+    color: white;
+}
+.wrapper .white .user .box .donate .bx .replenish
+{
+    background-color: #252525;
+}
+.wrapper .white .user .box .donate .bx .store
+{
+    background-color: #252525;
+}
+
+
+
+
+@media(max-width:1020px)
+{
+    .wrapper .main .user
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper .main .user .box
+    {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:780px)
+{
+    .wrapper .main .user .box .info
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper .main .user .box .info .second
+    {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .wrapper .main .user .box .donate
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper .main .user .box .donate .bx
+    {
+        width: 200px;
+    }
+
+
+}
+@media(max-width:555px)
+{
+    .wrapper .main .user .info .first
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width:520px)
+{
+    .replenishment
+    {
+        width: 300px;
+        margin-left: -150px;
+        margin-right: -150px;
+        height: 100px;
+    }
+
+    .replenishment button
+    {
+        margin-top: 20px;
+        width: 156px;
+
+    }
+}
+
+
+@media(max-width:400px)
+{
+    .wrapper .main .user .info .first table tr, .second table tr
+    {
+        word-break: break-all;
+        word-wrap: break-word;
+        height: auto;
+    }
+}
+
+@media(max-width:320px)
+{
+    .replenishment
+    {
+        width: 260px;
+        margin-left: -130px;
+        margin-right: -130px;
+        height: 100px;
+        height: 120px;
+    }   
+}
+
+@media(max-width:300px)
+{
+    .wrapper .main .user
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+
+

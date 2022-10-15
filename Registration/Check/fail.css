@@ -1,0 +1,38 @@
+#errBox
+{
+    display: flex;
+    justify-content: space-around;
+}
+#errMsg
+{
+    text-align: center;
+}
+
+#errMsg h1
+{
+    color:#ff6169;
+    margin-bottom: 50px;
+}
+
+#errMsg p
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#errMsg a
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00b7fff6;
+    margin-top: 100px;
+}
+
+body
+{
+    background-color: #191919;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+

@@ -1,0 +1,117 @@
+#errBox
+{
+    display: flex;
+    justify-content: space-around;
+}
+#errMsg
+{
+    text-align: center;
+}
+
+#errMsg h1
+{
+    color:#ff6169;
+    margin-bottom: 50px;
+}
+
+#errMsg p
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#errMsg a
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00b7fff6;
+    margin-top: 100px;
+}
+
+body
+{
+    background-color: #191919;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+#sccMsg
+{
+    text-align: center;
+}
+
+#sccMsg h1
+{
+    color:#02b15b;
+    margin-bottom: 50px;
+}
+
+#sccMsg p
+{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#sccMsg a
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00b7fff6;
+    margin-top: 100px;
+}
+
+#spam
+{
+    text-align: center;
+    color: #02b15b;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.message
+{
+    position: absolute;
+    background-color: #222222;
+    border-radius: 8px;
+    left:50%;
+    transform:translate(-50%, -350px);
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.message.active
+{
+    transform:translate(-50%, -206px);
+}
+
+@media(max-width:670px)
+{
+    .message
+    {
+        transform:translate(-50%, -380px);
+    }
+}
+
+@media(max-width:390px)
+{
+    .message
+    {
+        transform:translate(-50%, -400px);
+    }
+}
+
+
+
+@media(max-width:290px)
+{
+    .message
+    {
+        transform:translate(-50%, -470px);
+    }
+}
